@@ -1,0 +1,9 @@
+<h1>총 단어수</h1>
+{{words}}
+<h1> full text </h1>
+{{total}}
+<h1>단어 : 갯수 </h1>
+
+{% for word, howmany in word_dictionary %}
+    {{word}} : {{howmany}}<br>
+{% endfor %}
